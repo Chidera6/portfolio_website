@@ -10,7 +10,7 @@ body{
     color: whitesmoke;
     font-weight: bold;
     padding-bottom: 50px;
-    background-image: url('./../images/nick-nice-gPm8h3DS1s4-unsplash.jpg');
+    background-image: url('./images/nick-nice-gPm8h3DS1s4-unsplash.jpg');
     
     }
 
@@ -101,8 +101,8 @@ hr{
     background-color: blue;
 }
 img{
-    width:250px;
-    height:200px;
+    max-width:250px;
+    height:auto;
 }
 h5{ 
     margin-left: 507px;
