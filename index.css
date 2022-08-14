@@ -1,3 +1,4 @@
+
 body{
     margin: 24px;
     font-family: monospace;
@@ -11,7 +12,9 @@ body{
     font-weight: bold;
     padding-bottom: 50px;
     background-image: url('./images/nick-nice-gPm8h3DS1s4-unsplash.jpg');
-    
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
     }
 
 section{
@@ -25,17 +28,23 @@ section{
 hr{
     opacity:0.5;
 }
+
+.navigation{
+  display: flex;
+}
 .nav{
+    display: flex;
     position: fixed;
+    top:0;
 
 }
 .nav a{
-
+    flex-direction: row;
+    justify-content: space-between;
     color: whitesmoke;
     text-decoration: none;
-    padding:14px 16px;
     top: 0;
-    margin-bottom: 50px;  
+    padding: 20%;
 
 }
 
@@ -56,6 +65,17 @@ hr{
     margin-left: 150px;
     font-size: 1.0cm;
 }
+@media (max-width: 600px) {
+    .head h1{
+      font-size: 100%;
+    }
+    
+    .nav a{
+        flex-direction: column;
+        align-items: flex-start;
+        padding: auto;
+    }
+  }
 .work{
     display: flex;
     flex-direction: row;
@@ -101,10 +121,12 @@ hr{
     background-color: blue;
 }
 img{
-    max-width:250px;
-    height:auto;
+    max-width: 100%;
+    min-height: auto;
+    width:250px;
+    height:200px;
 }
-h5{ 
+h5{
     margin-left: 507px;
     color: darkgreen;
 }
@@ -119,6 +141,13 @@ h6{
     float: right;
 }
 
+.cv a:hover{
+    color:red;
+}
+
+.cv :active{
+    background-color: blue;
+}
 
 h2{
     text-align: center;
@@ -173,19 +202,19 @@ h3{
 .bit .hit{
     margin-top: 150px;
     margin-left: 100px;
-    
+
 }
 
 .bit .mit{
     margin-bottom: 20px;
     margin-left: 200px;
-    
+
 }
 .tit .l{
     margin-top: 150px;
     margin-left: 100px;
-    
-    
+
+
 }
 .tit .b{
     margin-bottom: 20px;
@@ -228,11 +257,6 @@ h7{
     color: darkgreen;
 }
 
-@media(max-width:600px){
-    body{
-        margin:8px
-    }
-}
 
 .container a:hover{
     color: red;}
@@ -245,3 +269,93 @@ h7{
     background-color: blue;}
 .b :active{
     background-color: blue;}
+
+@media all and (max-width:500px) {
+    body{
+        margin:8px;
+    }
+    section{
+        margin-top:10px;
+    }
+    .page p{
+        margin-left: 10px;
+        font-size: 100%;
+        margin-top: 50px;
+        margin-bottom: 1px;
+    }
+    .head h1{
+        font-size: 0.5cm;
+        margin-top: 0px;
+    }
+    
+    
+    
+    .tro{
+        display: block;
+        float: inline-start;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        flex:1 0 auto;
+    }
+    .bit{
+        display: flex;
+        align-items: center;
+    }
+    .bit p{
+
+        border-radius: 50%;
+        text-align: center;
+        padding: 70px;
+        min-width: 0px;
+        max-height: 0px;
+    }
+    .tit{
+        display: flex;
+        align-items: center;
+    }
+    .tit p{
+        padding: 70px;
+        min-width:0px;
+        max-height: 0px;
+    }
+
+    .bit .hit{
+        margin-top: 100px;
+        margin-left: 0px;
+    }
+
+    .bit .mit{
+        margin-bottom: 10px;
+        margin-left: 0px;
+    
+    }
+    .tit .l{
+        margin-top: 100px;
+        margin-left: 00px;
+    
+    
+    }
+    .tit .b{
+        margin-bottom: 10px;
+        margin-left: 0px;
+    
+    }
+    h3{
+        font-size: 100%;
+        text-align: center;
+    }
+    h4{
+        font-size: 100%;
+    }
+    .skills p{
+        font-size: 100%;
+    }
+    footer{
+        font-size: 100%;
+    }
+    
+}
