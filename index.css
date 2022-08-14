@@ -74,8 +74,8 @@ hr{
 
     text-align: center;
     color:whitesmoke;
-    max-width:250px;
-    min-height:250px;
+    width:250px;
+    height:250px;
     margin-left: 100px;
 }
 
@@ -94,8 +94,8 @@ hr{
 .tro p{
     text-align: center;
     color:whitesmoke;
-    max-width:250px;
-    min-height:250px;
+    width:250px;
+    height:250px;
     margin-left:500px;
     }
 
@@ -330,18 +330,18 @@ h7{
 
         border-radius: 50%;
         text-align: center;
-        padding: 70px;
-        min-width: 0px;
-        max-height: 0px;
+        padding: 50px;
+        width: 0px;
+        height: 0px;
     }
     .tit{
         display: flex;
         align-items: center;
     }
     .tit p{
-        padding: 70px;
-        min-width:0px;
-        max-height: 0px;
+        padding: 50px;
+        width:0px;
+        height: 0px;
     }
 
     .bit .hit{
