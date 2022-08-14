@@ -325,18 +325,20 @@ h7{
     .bit{
         display: flex;
         align-items: center;
+        margin-right: 300px;
     }
     .bit p{
-        padding: 100px;
+        padding: 100%;
         width: 1px;
         height: 1px;
     }
     .tit{
         display: flex;
         align-items: center;
+        margin-right: 300px;
     }
     .tit p{
-        padding: 100px;
+        padding: 100%;
         width:1px;
         height: 1px;
     }
