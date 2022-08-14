@@ -11,7 +11,7 @@ body{
     color: whitesmoke;
     font-weight: bold;
     padding-bottom: 50px;
-    background-image: url('./images/38127.webp');
+    background-image: url('.');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -310,10 +310,10 @@ h7{
     }
     
     pre{
-       margin-left: 47px;
+       margin-left: 57px;
     }
     .tro p{
-        margin-left: 40px;
+        margin-left: 50px;
     }
     .container{
         display: flex;
@@ -327,21 +327,18 @@ h7{
         align-items: center;
     }
     .bit p{
-
-        border-radius: 50%;
-        text-align: center;
-        padding: 50px;
-        width: 0px;
-        height: 0px;
+        padding: 100px;
+        width: 1px;
+        height: 1px;
     }
     .tit{
         display: flex;
         align-items: center;
     }
     .tit p{
-        padding: 50px;
-        width:0px;
-        height: 0px;
+        padding: 100px;
+        width:1px;
+        height: 1px;
     }
 
     .bit .hit{
