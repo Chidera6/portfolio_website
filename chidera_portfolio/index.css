@@ -1,0 +1,114 @@
+
+.navigation {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }
+  
+
+.navigation a {
+    margin-right: 20px;
+    font-size: 18px;
+    color: #333;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+  
+  
+.navigation button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+  
+.navigation button a {
+    color: #fff;
+    text-decoration: none;
+}
+    
+.center {
+    text-align: center;
+  }
+  
+
+.my-button {
+    display: flex;
+    justify-content: center;
+  }
+  
+  button {
+    background-color: #333;
+    border-radius: 5px;
+    padding: 10px 20px;
+  }
+
+  .got{
+    background-color: white;
+    color: black;
+  }
+
+.contact a{
+  text-decoration: none;
+  color: white;
+}
+  .skills  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #333;
+    color: white;
+    gap: 3px;
+    padding: 0.001rem;
+    border-radius: 3px;
+  }
+  
+
+h2{
+  text-align: center;
+}
+.work-experience{
+  display: flex;
+  justify-content: center;
+  gap: 1px;;
+}
+
+.projects{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr 1fr;
+  border-radius: 2px;
+  gap: 20px;
+}
+
+.job-board{
+  grid-column-start: 1;
+}
+.project{
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  border:2px solid  #333;
+  border-radius: 3px;
+}
+.project a{
+  text-decoration: none;
+  color: black;
+}
+
+.contact-buttons{
+  display: flex;
+  gap: 1%;
+  justify-content: center;
+}
+.contact-buttons a{
+  text-decoration: none;
+  color: white;
+}
+footer{
+  text-align: center;
+}
+
