@@ -72,8 +72,9 @@ h2{
 }
 .work-experience{
   display: flex;
-  justify-content: center;
   gap: 1px;;
+  justify-content: center;
+
 }
 
 .projects{
@@ -111,4 +112,7 @@ h2{
 footer{
   text-align: center;
 }
-
+.skil{
+  font-weight: 1000;
+  text-align: center;
+}
