@@ -1,4 +1,3 @@
-/* Common styles for both desktop and mobile */
 .navigation {
   display: flex;
   justify-content: right;
@@ -68,11 +67,26 @@ h2 {
   text-align: center;
 }
 
-.work-experience {
-  display: flex;
-  gap: 1px;
-  justify-content: center;
+#experience {
+  width: 100%;
+  max-width: 800px; 
+  margin: 0 auto;
+  padding: 20px;
 }
+
+.work-experience {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .work-experience {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
 
 .projects {
   display: grid;
@@ -116,10 +130,10 @@ footer {
 
 .skil {
   font-weight: 1000;
-  text-align: center;
+
 }
 
-/* Media queries for mobile */
+
 @media (max-width: 767px) {
   .navigation {
     justify-content: center;
