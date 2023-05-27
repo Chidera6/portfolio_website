@@ -9,13 +9,12 @@
   font-size: 18px;
   color: #333;
   text-decoration: none;
-  transition: all 0.3s ease-in-out;
+
 }
 
 .navigation button {
   background-color: #333;
   color: #fff;
-  border: none;
   padding: 10px 20px;
   border-radius: 5px;
   font-size: 18px;
